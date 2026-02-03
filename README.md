@@ -59,9 +59,8 @@ git push origin main
 ## 🚀 Deployment
 
 Automatically deployed to GitHub Pages on every push to `main`:
-https://Luxury925.github.io/Luxury925-store/
 
-Or with custom domain: https://luxury925.store
+**Live Site:** https://Luxury925.github.io/Luxury925-store/
 
 ## 📄 License
 
