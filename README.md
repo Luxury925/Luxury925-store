@@ -1,65 +1,92 @@
 # Luxury925 Showcase
 
-A premium jewelry showcase application for Luxury925.
+A premium jewelry showcase application for Luxury925 - elegant sterling silver jewelry for every occasion.
 
-## Project info
+## 🌟 Project Info
 
-This is the official Luxury925 showcase web application featuring our finest collection of luxury jewelry.
+This is the official Luxury925 showcase web application featuring our finest collection of luxury jewelry. Built with modern web technologies for optimal performance and user experience.
 
-## How can I edit this code?
+**Live Demo:** https://Luxury925-Store.github.io/Luxury925-Store/
 
-You have several options for editing this application:
+## 🚀 Quick Start
 
-**Use your preferred IDE**
+### Prerequisites
+- Node.js 18+ & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Clone this repo and make changes locally. Push your changes to update the project.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Local Development
 
 ```sh
 # Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Luxury925-Store/Luxury925-Store.git
 
 # Step 2: Navigate to the project directory
-cd luxury925-showcase
+cd Luxury925-Store
 
 # Step 3: Install dependencies
-npm i
+npm install
 
 # Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
+### Build for Production
+
+```sh
+npm run build
+npm run preview
+```
+
+## ✏️ How to Edit This Code?
+
+You have several options:
+
+**Option 1: Use your preferred IDE**
+- Clone this repo and make changes locally
+- Push your changes to automatically deploy
+
+**Option 2: Edit directly in GitHub**
 - Navigate to the desired file(s)
 - Click the "Edit" button (pencil icon) at the top right
 - Make your changes and commit
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository
-- Click on the "Code" button (green button) near the top right
+**Option 3: Use GitHub Codespaces**
+- Click on the "Code" button (green) near the top right
 - Select the "Codespaces" tab
 - Click "New codespace" to launch the environment
 - Edit files and commit your changes
 
-## What technologies are used for this project?
+## 🛠️ Technologies
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Next generation frontend build tool
+- **React 18** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn-ui** - High-quality components
+- **Framer Motion** - Animation library
+- **Lucide React** - Icon library
 
-## How can I deploy this project?
+## 📦 Project Structure
 
-Deploy using your preferred hosting service (Vercel, Netlify, GitHub Pages, etc.).
+```
+Luxury925-Store/
+├── public/                  # Static assets
+│   ├── favicon.ico
+│   └── ...
+├── src/                     # Source files
+│   ├── components/          # Reusable components
+│   ├── pages/               # Page components
+│   ├── App.tsx              # Root component
+│   └── main.tsx             # Entry point
+├── .gitignore               # Ignored files in Git
+├── index.html               # Main HTML file
+├── package.json             # Project metadata and dependencies
+└── tsconfig.json            # TypeScript configuration
+```
 
-## License
+## 📄 License
 
 © 2024 Luxury925. All rights reserved.

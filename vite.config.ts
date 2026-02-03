@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/luxury925/", // 🔴 CHANGE THIS to your EXACT repo name
+  base: "/Luxury925-Store/",
 
   server: {
     host: "::",
