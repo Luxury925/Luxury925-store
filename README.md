@@ -6,7 +6,7 @@ A premium jewelry showcase application for Luxury925 - elegant sterling silver j
 
 This is the official Luxury925 showcase web application featuring our finest collection of luxury jewelry.
 
-**Live Demo:** https://Luxury925-Store.github.io/Luxury925-Store/
+**Live Demo:** https://Luxury925.github.io/Luxury925-store/
 
 ## 🚀 Quick Start
 
@@ -16,8 +16,8 @@ This is the official Luxury925 showcase web application featuring our finest col
 ### Local Development
 
 ```sh
-git clone https://github.com/Luxury925-Store/Luxury925-Store.git
-cd Luxury925-Store
+git clone https://github.com/Luxury925/Luxury925-store.git
+cd Luxury925-store
 npm install
 npm run dev
 ```
@@ -35,7 +35,7 @@ npm run preview
 
 **Option 1: Locally**
 ```bash
-git clone https://github.com/Luxury925-Store/Luxury925-Store.git
+git clone https://github.com/Luxury925/Luxury925-store.git
 # Make changes
 git add .
 git commit -m "your message"
@@ -46,11 +46,6 @@ git push origin main
 - Open file in GitHub
 - Click pencil icon to edit
 - Commit changes
-
-**Option 3: GitHub Codespaces**
-- Click "Code" button → "Codespaces"
-- Click "New codespace"
-- Edit and commit
 
 ## 🛠️ Technologies
 
@@ -64,7 +59,9 @@ git push origin main
 ## 🚀 Deployment
 
 Automatically deployed to GitHub Pages on every push to `main`:
-https://Luxury925-Store.github.io/Luxury925-Store/
+https://Luxury925.github.io/Luxury925-store/
+
+Or with custom domain: https://luxury925.store
 
 ## 📄 License
 
