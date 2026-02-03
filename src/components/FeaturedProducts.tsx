@@ -24,8 +24,8 @@ const products: Product[] = [
   {
     id: 1,
     name: 'GXTRS Luxury 8CT Oval Cut Full Moissanite Ring S925 Silver For Women Sparkling Lab Diamond Wedding Band Fine Jewelry Certificate',
-    price: '$43.91',
-    originalPrice: '$114.70',
+    price: '$44.02',
+    originalPrice: '$114.94',
     discount: 50,
     image: 'src/images/Hd8696eac135c4240b43f003224d9d989O - Copie.jpg',
     link: ' https://s.click.aliexpress.com/e/_c4DZiOpz',
