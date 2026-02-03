@@ -24,29 +24,6 @@ npm run dev
 
 Available at `http://localhost:5173`
 
-### Build for Production
-
-```sh
-npm run build
-npm run preview
-```
-
-## 📝 How to Edit
-
-**Option 1: Locally**
-```bash
-git clone https://github.com/Luxury925/Luxury925-store.git
-# Make changes
-git add .
-git commit -m "your message"
-git push origin main
-```
-
-**Option 2: Edit on GitHub**
-- Open file in GitHub
-- Click pencil icon to edit
-- Commit changes
-
 ## 🛠️ Technologies
 
 - **Vite** - Frontend build tool
@@ -56,11 +33,9 @@ git push origin main
 - **shadcn-ui** - Components
 - **Framer Motion** - Animations
 
-## 🚀 Deployment
+## 🚀 Live Site
 
-Automatically deployed to GitHub Pages on every push to `main`:
-
-**Live Site:** https://Luxury925.github.io/Luxury925-store/
+https://Luxury925.github.io/Luxury925-store/
 
 ## 📄 License
 

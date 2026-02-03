@@ -20,32 +20,32 @@ interface Product {
   badge?: string;
 }
 
-const products: Product[] = [
-  {
-    id: 1,
-    name: 'GXTRS Luxury 8CT Oval Cut Full Moissanite Ring S925 Silver For Women Sparkling Lab Diamond Wedding Band Fine Jewelry Certificate',
-    price: '$44.02',
-    originalPrice: '$114.94',
-    discount: 50,
-    image: 'src/images/Hd8696eac135c4240b43f003224d9d989O - Copie.jpg',
-    link: ' https://s.click.aliexpress.com/e/_c4DZiOpz',
-    category: 'Rings',
-    material: '100% Original 925 Sterling Silver',
-    rating: 5.0,
-    description: 'Solitaire Oval 4ct Lab Diamond cz Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Bridal Jewelry',
-    badge: 'Top On Sale',
-    gallery: [
-      'src/images/Hd8696eac135c4240b43f003224d9d989O - Copie.jpg',
-      'src/images/Saaa4abc1b8f14aefb074972d39fa72b0g.jpg_220x220q75.jpg_.avif',
-      'src/images/H93dd3859d7534c37848b54cf9e21d95bE - Copie.jpg',
-      'src/images/H8688d1ab1eec4d8c9222d228ae2feae3A - Copie.jpg',
-    ],
-  },
-  
-];
-
 const FeaturedProducts = () => {
   const { isOpen, selectedProduct, openModal, closeModal } = useProductModal();
+
+  const products: Product[] = [
+    {
+      id: 1,
+      name: 'GXTRS Luxury 8CT Oval Cut Full Moissanite Ring S925 Silver For Women Sparkling Lab Diamond Wedding Band Fine Jewelry Certificate',
+      price: '$44.02',
+      originalPrice: '$114.94',
+      discount: 50,
+      image: new URL('@/images/Hd8696eac135c4240b43f003224d9d989O - Copie.jpg', import.meta.url).href,
+      link: ' https://s.click.aliexpress.com/e/_c4DZiOpz',
+      category: 'Rings',
+      material: '100% Original 925 Sterling Silver',
+      rating: 5.0,
+      description: 'Solitaire Oval 4ct Lab Diamond cz Ring 100% Original 925 sterling silver Engagement Wedding band Rings for Women Bridal Jewelry',
+      badge: 'Top On Sale',
+      gallery: [
+        new URL('@/images/Hd8696eac135c4240b43f003224d9d989O - Copie.jpg', import.meta.url).href,
+        new URL('@/images/Saaa4abc1b8f14aefb074972d39fa72b0g.jpg_220x220q75.jpg_.avif', import.meta.url).href,
+        new URL('@/images/H93dd3859d7534c37848b54cf9e21d95bE - Copie.jpg', import.meta.url).href,
+        new URL('@/images/H8688d1ab1eec4d8c9222d228ae2feae3A - Copie.jpg', import.meta.url).href,
+      ],
+    },
+    
+  ];
 
   return (
     <>

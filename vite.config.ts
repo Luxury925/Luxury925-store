@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   base: "/Luxury925-store/",
+
+  publicDir: 'public',
+
   server: {
     host: "::",
     port: 8080,
