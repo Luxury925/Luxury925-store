@@ -22,6 +22,5 @@ export default defineConfig(({ mode }) => ({
     outDir: "dist",
     emptyOutDir: true,
     sourcemap: false,
-    minify: "terser",
   },
 }));
