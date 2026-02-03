@@ -13,7 +13,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <Router>
+      <Router basename="/Luxury925-store/">
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
