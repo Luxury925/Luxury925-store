@@ -4,16 +4,12 @@ import { useState } from 'react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-
-  const BASE_URL="/luxury925-store/";
   const navLinks = [
-    // Préfixez tous les href avec la BASE_URL
-    { name: 'Home', href: `${BASE_URL}#home` },
-    { name: 'Collection', href: `${BASE_URL}#products` },
-    { name: 'About', href: `${BASE_URL}#about` },
-    { name: 'Journal', href: `${BASE_URL}#blog` },
-    { name: 'Contact', href: `${BASE_URL}#footer` },
+    { name: 'Home', href: '#home' },
+    { name: 'Collection', href: '#products' },
+    { name: 'About', href: '#about' },
+    { name: 'Journal', href: '#blog' },
+    { name: 'Contact', href: '#footer' },
   ];
 
   return (
