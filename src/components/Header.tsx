@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
-  const BASE_URL="/luxury925/";
+  const BASE_URL="/luxury925-store/";
   const navLinks = [
     // Préfixez tous les href avec la BASE_URL
     { name: 'Home', href: `${BASE_URL}#home` },
