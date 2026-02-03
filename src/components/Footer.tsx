@@ -102,17 +102,17 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-silver text-sm">
                 <Mail className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <a href="mailto:hello@luxury925.com" className="hover:text-gold transition-colors">
-                  hello@luxury925.com
+                <a href="mailto:luxury925@gmail.com" className="hover:text-gold transition-colors">
+                  luxury925@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3 text-silver text-sm">
                 <Phone className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <span>+1 (555) 123-4567</span>
+                <span>+2162184427</span>
               </li>
               <li className="flex items-start gap-3 text-silver text-sm">
                 <MapPin className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                <span>New York, NY</span>
+                <span>Tunisia,Sousse</span>
               </li>
             </ul>
           </motion.div>
